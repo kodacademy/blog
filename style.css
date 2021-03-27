@@ -1,0 +1,53 @@
+body{
+	 color : #fd3f92 ; /*color permet de changer la couleur du texte, on pourra utiliser le nom anglais d'une couleur, son code hexadecimal ou son code RGB*/
+	 background-color:#FFB6C1;/*background-color permet de changer la couleur de fond de nos éléments*/
+	 font-family:fantasy;/*font family permet de changer la police du texte*/
+	 font-size:15px; /*font size permet de modifier la taille des lettres*/
+	 line-height:20px;/*permet de modifier l'espace entre deux lignes de texte*/
+	 text-align:center;/*changer la position du texte(center, right, left)*/
+
+
+}
+
+h1{
+	color : #fd3f92;
+	font-family:fantasy;
+	font-size:35px;
+	font-variant:small-caps;/*permet de transformer toutes les lettres en petites majuscules*/
+	letter-spacing:3px;/*pour pouvoir augmenter l'espace entre les lettres, on utilise letter spacing*/
+
+	
+
+}
+
+h2{
+	letter-spacing:2px;
+	font-weight:lighter;/* il est possible de modifier l'épaisseur des lettres, lighter pour les affiner et bolder pour les épaissir*/
+	color :#fd3f92 ;
+}
+
+a{
+	color:#9b52cc;
+	text-decoration: none;/*permet de supprimer la barre de soulignement en dessous des liens*/
+}
+
+a:hover{/*grâce à cette sélection il est possible de changer la couleur du lien lorsque on passe la souris dessus*/
+	color:#d98dd4;
+}
+
+div{
+	border:solid; /**/
+	margin:25px 200px;/*correspond à la marge extérieure*/
+	padding:10px;/*correspond à la marge intérieure*/
+	border-radius:20px;/*permet d'arrondir les angles*/
+	box-shadow: 10px 5px 5px #fd3f92; /*permet de faire des ombres*/
+	
+}
+
+iframe{
+	border-radius: 10px
+}
+
+img{
+	border-radius: 10px
+}
